@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  
+    <meta name="keywords" content="blog">
+  
+  
+    <meta name="description" content="This is my blog!">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    
+    Vivian</title>
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+  
+  <script src="/js/pace.min.js"></script>
+</head>
+</html>
+<body>
+<main class="content">
+  <section class="jumbotron">
+  <div class="video">
+    
+      <div class="video-frame">
+        <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
+      </div>
+    
+    <div class="video-media">
+      <video playsinline autoplay loop muted data-autoplay poster="/images/ocean/ocean.png" x5-video-player-type="h5">
+        <source src="/images/ocean/ocean.mp4" type="video/mp4">
+        <source src="/images/ocean/ocean.ogv" type="video/ogg">
+        <source src="/images/ocean/ocean.webm" type="video/webm">
+        <p>Your user agent does not support the HTML5 Video element.</p>
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+    <div class="video-inner text-center text-white">
+      <h1><a href="/">Vivian</a></h1>
+      <p></p>
+      <div><img src="/images/hexo-inverted.svg" class="brand" alt="Vivian"></div>
+    </div>
+    <div class="video-learn-more">
+      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
+    </div>
+  </div>
+</section>
+
+<div id="landingpage">
+  <section class="outer">
+  <article class="articles">
+    
+    <h1 class="page-type-title"></h1>
+
+    
+      
+        <article id="post-study" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/04/27/study/">我的第一次blog之旅</a>
+    </h2>
+  
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/04/27/study/" class="article-date">
+  <time datetime="2019-04-27T08:54:49.000Z" itemprop="datePublished">2019-04-27</time>
+</a>
+        
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/study/">study</a>
+  </div>
+
+      </div>
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+  <div class="article-gallery">
+    <div class="article-gallery-photos">
+      
+        
+          <a class="article-gallery-img" href="/2019/04/27/study/" rel="gallery_cjuz9rftp0004yood1inl3rnp">
+            <img src="https://avatars0.githubusercontent.com/u/49616477?s=460&v=4" itemprop="image">
+          </a>
+        
+      
+    </div>
+  </div>
+
+
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>&emsp;&emsp;看到了网络上眼花缭乱的博文，然后又在男朋友的怂恿下，终于踏入写博客的坑！现在就来做做总结吧！</p>
+</blockquote>
+<h2 id="起步"><a href="#起步" class="headerlink" title="起步"></a>起步</h2><h3 id="第一步-安装git、hexo-cli"><a href="#第一步-安装git、hexo-cli" class="headerlink" title="第一步 安装git、hexo-cli"></a>第一步 安装git、hexo-cli</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装git</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 进入官网选择合适版本的可执行二进制文件</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># install hexo-cli</span></span><br><span class="line"></span><br><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h3 id="第二步-初始化博客目录"><a href="#第二步-初始化博客目录" class="headerlink" title="第二步 初始化博客目录"></a>第二步 初始化博客目录</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># init your blog's directory</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 注意，不可用中文名作为目录名</span></span><br><span class="line"></span><br><span class="line">hexo init <span class="string">' your bolg'</span>s name <span class="string">'</span></span><br></pre></td></tr></table></figure>
+<h3 id="第三步-设置配置文件"><a href="#第三步-设置配置文件" class="headerlink" title="第三步 设置配置文件"></a>第三步 设置配置文件</h3><ol>
+<li>进入‘ _config.yml ‘，你可以按照’#’后面的注释进行相关配置；</li>
+<li>在‘themes’文件目录下找到你下载的主题，按照官方API进行相关配置；</li>
+</ol>
+<h2 id="本地调试"><a href="#本地调试" class="headerlink" title="本地调试"></a>本地调试</h2><h3 id="创建你的博文"><a href="#创建你的博文" class="headerlink" title="创建你的博文"></a>创建你的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo n your blogname</span><br></pre></td></tr></table></figure>
+<h3 id="编辑‘-md’文件头"><a href="#编辑‘-md’文件头" class="headerlink" title="编辑‘.md’文件头"></a>编辑‘.md’文件头</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">title: 我的第一次blog之旅  # 标题</span><br><span class="line">date: 2019-04-27 16:54:49  # 日期</span><br><span class="line">tags:   # 标签</span><br><span class="line">  - hexo </span><br><span class="line">  - study</span><br><span class="line">categories:  # 分类</span><br><span class="line">  - study</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="本地调试-1"><a href="#本地调试-1" class="headerlink" title="本地调试"></a>本地调试</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># 本地调试默认地址：http://localhost:4000</span></span><br><span class="line"></span><br><span class="line">$ hexo serve</span><br></pre></td></tr></table></figure>
+<h2 id="外网发布"><a href="#外网发布" class="headerlink" title="外网发布"></a>外网发布</h2><h3 id="再次确认配置文件"><a href="#再次确认配置文件" class="headerlink" title="再次确认配置文件"></a>再次确认配置文件</h3><blockquote>
+<p>进入‘_config.yml’文件中，观察最后一部分‘deploy’配置是否如下：</p>
+</blockquote>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">在GitHub中，你创建的.io仓库</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<h3 id="生成最终发布的html"><a href="#生成最终发布的html" class="headerlink" title="生成最终发布的html"></a>生成最终发布的html</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ hexo g --watch</span><br></pre></td></tr></table></figure>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>## </p>
+<blockquote>
+<p>Now,you can visit your blog as  ‘<a href="https://github.com/yourName/yourName">https://github.com/yourName/yourName</a> .io’</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.com/AngelVivian/AngelVivian.github.io/2019/04/27/study/" data-id="cjuz9rftp0004yood1inl3rnp" class="article-share-link">Share</a>
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/study/">study</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
+  </article>
+  
+  
+</section>
+</div>
+
+  <footer class="footer">
+  
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+    <li><i class="fe fe-bar-chart"></i> <span id="busuanzi_value_site_pv"></span></li>
+  
+    <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>&copy; 2019 Vivian</li>
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>Theme  <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+
+</main>
+<aside class="sidebar">
+  <button class="navbar-toggle"></button>
+
+<nav class="navbar">
+  
+    <div class="logo">
+      <a href="/"><img src="/images/hexo.svg" alt="Vivian"></a>
+    </div>
+  
+  <ul class="nav nav-main">
+    
+      <li class="nav-item">
+        <a class="nav-item-link" href="/">主页</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-item-link" href="/archives">文章</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-item-link" href="/gallery">分类</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-item-link" href="/about">关于</a>
+      </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="Search">
+        <i class="fe fe-search"></i>
+        Search
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+      <li class="nav-item">
+          <div class="totop" id="totop">
+    <i class="fe fe-rocket"></i>
+</div>
+      </li>
+    <li class="nav-item">
+      
+        <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+          <i class="fe fe-feed"></i>
+        </a>
+      
+    </li>
+  </ul>
+</nav>
+
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+</aside>
+<script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/lazyload.min.js"></script>
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+  <script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+</html>
